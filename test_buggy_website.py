@@ -1,8 +1,8 @@
 from playwright.sync_api import Page,expect,Playwright
 # Chromium
-def Test_buggy(page:Page):
+def Test_buggy(playwright):
     page.goto("https://buggy.justtestit.org/")
-    browser=Playwright.chromium.launch(headless=False)
+    browser=playwright.chromium.launch(headless=False)
     context=browser.new_context()
     page=context.new_page()
     # page.goto("https://buggy.justtestit.org/")
