@@ -7,13 +7,3 @@
 # def test_demo():
 #     print("Hello Yugapriya")
 #     assert True
-
-
-#9 question
-#pytest -s -v
-#pytest sums.py:: function name
-#pytest -v
-
-#2
-@pytest.fixture()
-

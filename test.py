@@ -75,11 +75,11 @@
 
 #8
 
-user = {
-  "username": "test_user",
-  "password": "Pass123",
-  "email": "test@example.com"
-}
+# user = {
+#   "username": "test_user",
+#   "password": "Pass123",
+#   "email": "test@example.com"
+# }
 
 # if user["password"]<6 and user["email"] not in "@":
     
